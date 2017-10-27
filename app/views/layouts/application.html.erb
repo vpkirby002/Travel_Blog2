@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TravelBlog</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica:400i" rel="stylesheet">
+
+
+  </head>
+
+  <h1>Travel Blog</h1>
+  <h2>Welcome to Travel Blog: A globetrotter's dream travel hub where you're allowed to share all of your AMAZING travel adventures with just a click of a button. Sign up today!</h2>
+
+
+  <body>
+
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
+<%= link_to "Register", new_user_registration_path %><br>
+
+<%= link_to "Login", new_user_session_path %><br>
+
+<%= link_to "Sign out", destroy_user_session_path, method: :delete %>﻿<br>
+
+    <%= yield %>
+  </body>
+</html>
