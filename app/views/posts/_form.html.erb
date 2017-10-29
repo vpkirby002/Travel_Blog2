@@ -1,6 +1,5 @@
-<% form_for([@post, @post.comments.build]) do |f| %>
-  
-
+ <%= form_for @post, html: { multipart: true } do |form| %>
+ 
 
   <% if post.errors.any? %>
     <div id="error_explanation">
@@ -29,10 +28,7 @@
     <%= form.text_field :body, id: :post_ %>
   </div>
 
-  <div class="field">
-    <%= form.label :comment %>
-    <%= form.text_field :comment, id: :post_ %>
-  </div>
+  
 
   <div class="actions">
     <%= form.submit %>

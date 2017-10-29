@@ -2,13 +2,13 @@ body {
   background-color: #fff;
   color: #333;
   margin: 33px;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   line-height: 18px;
 }
@@ -21,15 +21,17 @@ pre {
 
 a {
   color: #000;
+  color: #e2d8d8;
+    line-height: 1.2;
+    text-decoration: none;
 
   &:visited {
-    color: #666;
+    color: #e2d8d8;
+    line-height: 1.2;
+    text-decoration: none;
   }
 
-  &:hover {
-    color: #fff;
-    background-color: #000;
-  }
+ 
 }
 
 th {
@@ -46,9 +48,7 @@ div {
   }
 }
 
-#notice {
-  color: green;
-}
+
 
 .field_with_errors {
   padding: 2px;
@@ -74,7 +74,8 @@ div {
   }
 
   ul li {
-    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
     list-style: square;
   }
 }
@@ -84,16 +85,26 @@ label {
 }
 
 p {
-  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 150%;
 }
 
 
 
 
+p.comment_body{
+  
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
 
 
+p.body {
+  font-family: 'Poppins', sans-serif;
+  color: white,
 
-
+}
 
 
 
