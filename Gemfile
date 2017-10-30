@@ -33,7 +33,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
+# I used the devise gem to create some of the files for the travel blog. 
+
 gem 'devise', '~> 4.3'
+
+# I used the 'paperclip' gem to create the image uploader for the blog. 
 
 gem "paperclip", "~> 5.0.0"
 
